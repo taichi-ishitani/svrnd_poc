@@ -1,0 +1,12 @@
+[package]
+name = "svrand"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+varisat = "0.2.2"
+num-bigint = { version = "0.4", features = ["rand"] }
+num-traits = "0.2"
+rand = "0.8"
+rand_chacha = "0.3"
